@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Server=https://kjepet11.crm4.dynamics.com, organization=kjepet11, user=petter@kjepet11.onmicrosoft.com-Web.config Connection String" description="Server=https://kjepet11.crm4.dynamics.com, organization=kjepet11, user=petter@kjepet11.onmicrosoft.com Connection String used in web.config by the application to access the database." defaultValue="Url=https://kjepet11.crm4.dynamics.com; Username=petter@kjepet11.onmicrosoft.com; Password=Imsdalen20;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Andreas\\Documents\\Visual\ Studio\ 2012\\Projects\\WindowsAzure1\\WCFServiceWebRole1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Server=https://kjepet11.crm4.dynamics.com, organization=kjepet11, user=petter@kjepet11.onmicrosoft.com']/@connectionString" />
+  </parameter>
+</parameters>

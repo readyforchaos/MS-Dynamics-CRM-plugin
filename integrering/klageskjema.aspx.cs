@@ -17,7 +17,7 @@ public partial class klageskjema : System.Web.UI.Page
 
         try
         {
-            client.doStuff(txtTittel.Text, txtTittel.Text, txaBeskrivelse.Text,Convert.ToInt16(ddlTilfredsstillelse.SelectedValue), Convert.ToInt16(ddlSakstype.SelectedValue));
+            client.doStuff("[" + txtNavn.Text+ "] " + txtTittel.Text, "[" + txtNavn.Text+ "] " + txtTittel.Text, txaBeskrivelse.Text, Convert.ToInt16(ddlTilfredsstillelse.SelectedValue), Convert.ToInt16(ddlSakstype.SelectedValue));
             litSuccess.Text = "<div class='alert alert-success'>Henvendelsen er blitt innsendt, vi vil behandle saken så fort som mulig.</div>";
         }
         catch (Exception)
